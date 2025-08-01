@@ -1,0 +1,21 @@
+[workspace]
+authors = ["Ubemotho <arda.ers@gmail.com>"]
+channels = ["pytorch", "nvidia", "conda-forge"]
+name = "ShotAnalyzeAI"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+ffmpeg = "*"
+pytorch = "*"
+torchvision = "*"
+torchaudio = "*"
+pytorch-cuda = "12.1.*"
+uv = "*"
+pip = ">=25.2,<26"
+
+[pypi-dependencies]
+
